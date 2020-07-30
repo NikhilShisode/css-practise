@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: stretch;
+}
+.wrapper > * {
+  margin-bottom: 1rem;
+}
+.a,
+.h {
+  flex-basis: 66%;
+}
+.c {
+  flex-basis: 100%;
+}
+.b,
+.d,
+.e,
+.f,
+.g {
+  flex-basis: 32%;
+}

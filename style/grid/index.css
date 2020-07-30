@@ -1,3 +1,5 @@
+@import "grid-span.css";
+
 div > div {
   font-size: 5rem;
   text-align: center;
